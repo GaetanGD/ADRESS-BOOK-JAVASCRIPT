@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(255, 250, 232);
+    overflow-x: hidden;
+    width: auto;
+}
+
+hr{
+    background-color: white;
+    width: 35%;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(172deg, rgba(165, 98, 22, 0.5), rgba(189, 173, 48, 0.5)), url(https://lesraffineurs.b-cdn.net/10654-large_default/carnet-de-projets.jpg);
+    padding-bottom: 8.5rem;
+    padding-top: 1rem;
+    font-variant: small-caps;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 5px grey;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: auto;
+    color: whitesmoke;
+    margin-top: 4rem;
+}
+
+h2{
+    margin: 1.5rem 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color: rgb(108, 95, 11);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: x-large;
+    font-family: cursive;
+    color: #392f01;
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: rgb(139 103 2 / 50%);
+    padding: 5rem 0;
+}
+
+.form-control{
+    border: none;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background-color: rgba(215, 198, 90, 0.361);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgb(130 114 5 / 50%);
+    background-color: transparent;
+    transition: 0.7s;
+}
+
+
+
+.btn-primary {
+    margin: 1rem auto;    
+}
+
+.shred{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-address-book{
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+
+#delete-address-book{
+    margin-right: 2rem;
+    font-size: 3rem;
+    border: none;
+    border-radius: 50%;
+    padding: 0 1rem;
+    background-color: #df7529;
+    color: white;
+}
+
+button:active i{
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px rgb(58, 11, 3);
+    transition: 0.7s;
+}
+
+#email:active{
+    background-color: transparent;
+}
+
+.card-body{
+    position: relative;
+}
+
+.card-body h5{
+    margin-top: 1.4rem;
+}
+
+.edit-contact{
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.edit-contact:hover{
+    color: #df7529;
+    transition-duration: 0.4s;
+    text-shadow: 0px 0px 1px rgb(58, 11, 3);
+}
+
+.trash-contact{
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+}
+
+.trash-contact:hover{
+    color: #df7529;
+    transition-duration: 0.4s;
+    text-shadow: 0px 0px 1px rgb(58, 11, 3);
+}
+
+#save-contact{
+    background-color: rgb(139, 124, 28);
+    border: none;
+    border-radius: 25px;
+    padding: 0.2rem 2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#reset-form{
+    color: whitesmoke;
+    background-color: rgb(139, 124, 28);
+    border: none;
+    border-radius: 25px;
+    padding: 0.2rem 2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#reset-form:hover{
+    background-color: transparent;
+    color: rgb(139, 124, 28);
+    transition: 0.7s;
+    border: solid rgb(139, 124, 28);
+    border-width: 1px;
+}
+
+#save-contact:hover{
+    background-color: transparent;
+    color: rgb(139, 124, 28);
+    transition: 0.7s;
+    border: solid rgb(139, 124, 28);
+    border-width: 1px;
+}
+
+#save-contact:focus {
+    box-shadow: 0 0 0 0.2rem rgb(130 114 5 / 50%);
+}
+
+#address-book li{
+    background-color: rgba(158, 142, 38, 0.471);
+    color: whitesmoke;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border:solid rgb(132, 101, 6);
+    border-width: 1.5px;
+}
+#address-book li:hover{
+    transition: 0.7s;
+    background-color: rgba(158, 142, 38, 0.8);
+}

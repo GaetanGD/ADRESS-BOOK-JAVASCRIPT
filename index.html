@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Address Book</title>
+</head>
+<body>
+    <header>
+        <div class="shred">
+            <i class="fas fa-address-book"></i>
+            <button id="delete-address-book" type="button"><i class="fas fa-trash-alt"></i></button>
+        </div>
+        <h1>Address Book</h1>
+        <hr>
+        <!--emplacement des cartes-->
+        <ul class="row" id="address-book"></ul>
+    </header>
+
+    <section>
+        <form id="formulaire">
+            <h2>Contact</h2>
+            <div class="form-group">
+                <label>Nom</label>
+                <input type="text" autocomplete="false" class="form-control" id="nom" />
+            </div>
+            <div class="form-group">
+                <label>Prénom</label>
+                <input type="text" autocomplete="false" class="form-control" id="prenom" />
+            </div>
+            <div class="form-group">
+                <label>Téléphone</label>
+                <input type="text" autocomplete="false" class="form-control" id="phone" />
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" autocomplete="false" class="form-control" id="email" />
+            </div>
+            <button type="button" id="save-contact" class="btn">Ajouter</button>
+        </form>
+    </section>
+</body>
+</html>
+<script type="text/javascript" src="js/main.js"></script>
